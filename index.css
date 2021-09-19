@@ -1,0 +1,48 @@
+.header {
+    grid-area: header;
+}
+
+.left {
+    grid-area: left;
+}
+
+.content {    
+    grid-area: content;
+    display: grid;    
+    grid-template-columns: repeat(auto-fill, 250px);
+    justify-content: center;
+    gap: 10px;
+    background: black !important;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.item {
+    border-radius: 5px;
+    padding: 10px;
+    background: #f2f2f2;    
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.level-1 {
+    grid-row-end: span 3;
+}
+
+.level-2 {
+    grid-row-end: span 2;
+}
+
+.level-3 {
+    grid-row-end: span 1;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "header header header header" "left content content content" "footer footer footer footer";
+}
