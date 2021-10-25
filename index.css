@@ -8,10 +8,15 @@
 
 .header {
     grid-area: header;
+    background-color: aqua;
+    text-align: center;
+    
+    
 }
 
 .left {
     grid-area: left;
+    background-color: brown;
 }
 
 .content {
@@ -28,7 +33,7 @@
 }
 
 .item {
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     background: #f2f2f2;
 }
