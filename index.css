@@ -8,14 +8,22 @@
 
 .header {
     grid-area: header;
+    background-color: aqua;
+    text-align: center;
+    
+    
 }
 
 .left {
     grid-area: left;
+<<<<<<< HEAD
     background-color: khaki;
     font-style: italic;
     font-size: 55px;
     max-width: 600px;
+=======
+    background-color: brown;
+>>>>>>> 44801ca09c6a3fcffb3b9b1020942e363f624290
 }
 
 .content {
@@ -32,7 +40,7 @@
 }
 
 .item {
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     background: #f2f2f2;
 }
