@@ -12,6 +12,10 @@
 
 .left {
     grid-area: left;
+    background-color: khaki;
+    font-style: italic;
+    font-size: 55px;
+    max-width: 600px;
 }
 
 .content {
@@ -55,4 +59,10 @@
     display: grid;
     gap: 10px;
     grid-template-areas: "header header header header" "left content content content" "footer footer footer footer";
+}
+
+.titulos {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    text-align: center;
 }
